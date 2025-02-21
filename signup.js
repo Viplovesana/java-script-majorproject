@@ -61,4 +61,14 @@ let signup=()=>{
         errpassword.innerHTML="Oops! please enter your password"
         return false
     }
+
+    localStorage.setItem("name",signname)
+    localStorage.setItem("age",signage)
+    localStorage.setItem("bloodgroup",signbg)
+    localStorage.setItem("number",signnum)
+    localStorage.setItem("email",signemail)
+    localStorage.setItem("password",signpass)
+
+    location.href="login.html"
+    return false
 }
