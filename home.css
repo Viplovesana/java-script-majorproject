@@ -243,5 +243,65 @@
     position: absolute;
     left: 32%;
   }
+  .container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .container3 div{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+  }
+  .container3 .box1{
+    width: 350px;
+    height: 500px;
+
+
+    background-image: url(StockCake-Medical\ Team\ Consultation_1740299293.jpg);
+    background-position:center ;
+    background-size: cover;
+    border: none;
+  }
+  .container3 .box1:hover{
+    transform: scale(0.9);
+    transition: 1s;
+  }
+  .container3 .box2{
+    width: 350px;
+    height: 500px;
+    background-image: url(StockCake-Medical\ Professional\ Consultation_1740299899.jpg);
+    background-position:center ;
+    background-size: cover;
+    border: none;
+  }
+  .container3 .box2:hover{
+    transform: scale(0.9);
+    transition: 1s;
+  }
+  
+  .container3 .box0{
+    width: 350px;
+    height: 500px;
+
+   
+    /* background-image: url(StockCake-Medical\ Professional\ Consultation_1740299899.jpg); */
+    background-position:center ;
+    background-size: cover;
+    border: none;
+    /* backdrop-filter: blur(10px); */
+ 
+    color: #5b5b5b;
+  
+    text-align: center;
+ }
+  
+  .container3 .box0:hover{
+    transform: scale(0.9);
+    transition: 1s;
+  }
+ 
 
  
