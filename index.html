@@ -4,13 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- font awesom cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+
   <!-- HOME.CSS -->
   <link rel="stylesheet" href="home.css">
 
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- swiper -->
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
- 
 </head>
 <body>
 
@@ -20,7 +29,7 @@
     
     <div data-aos="fade-right" data-aos-duration="2000">
 
-    <img src="logo.jpg" alt="logo" width="70px" height="70px">
+    <img src="logo4.jpg" alt="logo" width="80px" height="80px">
 
     <h1>Doctorate</h1>
 
@@ -33,9 +42,113 @@
 
     <button id="btn"  data-aos="fade-left" data-aos-duration="2000"><a>Make An Appointment</a></button>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   </header>
+</section>
+
+
+  <!-- ------------------------------swiper 1---------------------------------- -->
+
+<section class="main">
+<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+  <div class="parallax-bg" style="
+        background-image: url(vecteezy_doctor-using-digital-tablet-with-medical-icon-and-heartbeat_6906962.jpg);
+      " data-swiper-parallax="-23%"></div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="container">
+        <div class="child">
+      <h1 class="heading" data-aos="zoom-in" data-aos-duration="3000">Improve Your <span class="head">Cardiovascular</span> health with Diet and <span class="head"> Exercise</span>
+       <span class="head"> and</span> with healthy Diet
+      </h1><br><br><br>
+   
+   
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+          laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+          Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+          Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+          ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+         
+        </p><br><br>
+
+        <button class="btn2" >Discover More</button>
+        </div>
+
+        <div  data-aos="zoom-in-left" data-aos-duration="3000">
+           <img src="doc1.jpeg" alt="doc1" width="400px" height="300px" id="image"> 
+          </div>
+
+        
+
+      
+      
+      </div>
+    </div>
+
+     <!-- ------------------------------swiper 2---------------------------------- -->
+
+    <div class="swiper-slide">
+
+      <div class="container2">
+        <div class="child2">
+
+          <h3 class="head2" data-aos="zoom-in" data-aos-duration="3000">Dr.Niranjhan</h3><br><br>
+
+          <h1 class="head3">Quality Healthcare Solution for all</h1><br><br>
+          
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          dictum mattis velit, sit amet faucibus felis iaculis nec.
+         
+        </p><br><br>
+
+        <button class="btn3" >Get Service</button><br><br>
+          
+        <i class="fa fa-heart-pulse" id="heart"></i>
+        <h1>265k+</h1>
+        <h2>Recoverd Patient</h2>
+      
+        
+
+        </div>
+
+        <div>
+               
+       
+          </div>
+
+        
+
+      
+      
+      </div>
+    </div>
+
+     <!-- ------------------------------swiper 3---------------------------------- -->
+
+    <div class="swiper-slide">
+      <div class="title" data-swiper-parallax="-300">Slide 3</div>
+      <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+      <div class="text" data-swiper-parallax="-100">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+          laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+          Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+          Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+          ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+          tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
 </section>
 
 
@@ -53,9 +166,16 @@
     <script>
       AOS.init();
     </script>
-      <!-- Swiper JS -->
+    <!-- Swiper JS -->
+       <script src="swiper.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-      <script src="swiper.js"></script>
+    <!-- ---vanta.js----- -->
+  
+
+
+
+
 
 
 

@@ -7,22 +7,28 @@
     width: 100%;
     height: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: transparent;
    
 }
+.header div img{
+    border-radius: 50%;
+}
 .navbar{
     width:80%;
     height: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
-    background: transparent;
+   
 
   }
  
 .nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 60px;
@@ -69,3 +75,173 @@
     font-family:cursive;
     font-weight: bolder;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ...............swiper.css................ */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+ 
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .container div{
+    width:500px;
+    height: 500px;
+  }
+  .container .heading{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+  }
+  .head{
+    color:  rgb(0, 181, 166);
+
+  }
+
+  #image{
+    margin-top: 40%;
+    margin-left: 15%;
+  }
+  .btn2{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(0, 181, 166);
+    color: white;
+    border: none;
+  }
+  .btn2:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+}
+  .child{
+    text-align: center;
+
+  }
+.swiper-slide{
+    display: flex;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url(vecteezy_doctor-medical-background-illustration_23570080.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.container2 div{
+    width:500px;
+    height: 500px;
+    background:transparent;
+  }
+
+  .child2{
+
+    text-align: center;
+
+ 
+
+    
+  }
+  .head2{
+    color: #000;
+    font-size: 35px;
+    font-family:monospace;
+    margin-top: 30px;
+ 
+  }
+  .head3{
+    color: rgb(33, 33, 33);
+    font-size: 35px;
+  
+
+  }
+  .child2 .btn3{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(237, 180, 74);
+    color: white;
+    border: none;
+
+  }
+  .btn3:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+  }
+  #heart{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 32%;
+  }
+
+ 
