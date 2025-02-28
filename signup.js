@@ -11,11 +11,11 @@ let signup=()=>{
 
 
     let errname = document.querySelector("#errname")
-    let errage = document.querySelector("#errname")
-    let errbloodgroup = document.querySelector("#errname")
-    let errnumber = document.querySelector("#errname")
-    let erremail = document.querySelector("#errname")
-    let errpassword = document.querySelector("#errname")
+    let errage = document.querySelector("#errage")
+    let errbloodgroup = document.querySelector("#errbloodgroup")
+    let errnumber = document.querySelector("#errnumber")
+    let erremail = document.querySelector("#erremail")
+    let errpassword = document.querySelector("#errpassword")
 
 
     //.........................Name...........................//
