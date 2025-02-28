@@ -8,26 +8,40 @@
     align-items: center;
 
 }
+form input{
+    padding: 10px 10px;
+}
 
 #container{
-    width: 60%;
-    height: 80vh;
+    width: 70%;
+    height: 90vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    background-color: rgb(208, 216, 213);
+    
 
 }
 #container div{
     width: 300px;
-    height: 400px;
-    border: 1px solid black;
+    height: 500px;
+    /* border: 1px solid black; */
 }
 .card1{
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* background-color: bisque; */
 
+}
+.card2{
+    /* background-image: url(mad.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
 }
