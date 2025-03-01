@@ -138,19 +138,66 @@
 .parenttwo{
   width: 100%;
   height: 100%;
+  display: grid;
+  background-image: url(background7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
+ background-color:  rgb(96, 138, 129);
+ padding: 30px;
+ 
+  
 
 
 }
 .parenttwo div{
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border: 1px solid black;
- 
+
+  padding: 30px;
+  border: 2px solid rgba(255,255,255, .2);
+  backdrop-filter: blur(15px);
+
+}
+.parenttwo div:hover{
+  background-color:rgb(0, 118, 108) ;
+  transition: 1s;
+  
+  
+}
+.btnthree{
+  color:  rgb(130, 255, 245);
+  border: none;
+  background: none;
+  position: absolute;
+  margin-left: 28%;
+  
+  text-decoration:underline;
+  
+}
+.btnthree:hover{
+  color:rgb(0, 33, 31) ;
+  transition: 0.5s;
+}
+.para{
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  
+  
+}
+.headtwo{
+  text-align: center;
+  text-decoration: underline;
+  
+  
+
 }
 
 
