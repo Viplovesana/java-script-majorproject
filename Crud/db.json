@@ -1,24 +1,24 @@
 {
   "hotel": [
     {
-      "name": "uygfgyugvbgh hu",
-      "age": "23",
-      "city": "bhopal",
-      "aadhar": "97972983479834y4",
+      "name": "tejendra sana",
+      "age": "22",
+      "city": "dewas",
+      "aadhar": "79191281777791",
       "number": "8085212206",
       "person": "1",
       "fees": 2000,
       "id": "fe24"
     },
     {
+      "id": "9d74",
       "name": "viplove sana",
-      "age": 23,
+      "age": "23",
       "city": "bhopal",
-      "aadhar": "97972983479834y4",
-      "number": 8085212206,
-      "fees": "4000",
-      "person": "7",
-      "id": "790d"
+      "aadhar": "9874943209i0",
+      "number": "kp44pr[",
+      "person": "2",
+      "fees": 2000
     }
   ]
 }

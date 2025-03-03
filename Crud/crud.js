@@ -55,7 +55,7 @@ let userinput=()=>{
             aadhar: inpaadhar,
             number: inpnum,
             person: inpperson,
-            appointment: inpdate,
+            
             fees: 2000,
           
 

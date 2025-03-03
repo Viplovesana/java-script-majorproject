@@ -259,27 +259,33 @@ background-size: cover;
 
 .mainsix{
   width: 100%;
-  height: 50vh;
-  /* display: flex;
+  height: 70vh;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px; */
   background-color: #f0fffb;
- 
 
 }
-
-.mainsix div{
-  width: 500px;
-  height: 200px;
-  border: 1px solid black;
-  padding: 10px;
-  background-color: #fff;
-  margin-top: -10%;
-  
-
+.maincard{
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  margin-top: -15%;
 }
+#photo2{
+  border-radius: 50%; 
+}
+.line2{
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
 
 
 /* .......................section seven........................... */
@@ -324,13 +330,7 @@ background-size: cover;
 .doctor{
   border-radius:  10%;
 }
-#photo2{
-  border-radius: 50%;
-  position: absolute;
-  left: 2%;
-  margin-top: 2%;
- 
-}
+
 
 
 
