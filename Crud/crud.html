@@ -6,6 +6,7 @@
     <title>Hotel Bookings</title>
 </head>
 <body onload="fetchData()">
+    search : <input type="text" id="searchinp" oninput="searchh()">
     <table id="display" border="1px solid black" cellspacing="10px" cellpadding="15px">
         <thead>
             <tr>
@@ -18,7 +19,7 @@
                 <th>Person</th>
                 <th>Total</th>
                 <th>Cancel</th>
-                <th>update</th>
+                <th>update</th> 
             </tr>
         </thead>
         <tbody>
