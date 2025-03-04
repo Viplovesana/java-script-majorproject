@@ -8,7 +8,32 @@ let url="http://localhost:3000/hotel"
 let res=await fetch(url)
 let data=await res.json()
 console.log(data)
+datashow(data)
+
+}
+
+let searchh=async()=>{
+    let searchinp=document.querySelector("#searchinp").value.toLowerCase()
+
+    let url='http://localhost:3000/hotel'
+
+    let res=await fetch(url,{method:"GET"})
+
+    let data=await res.json()
+
+    let filterdata=data.filter((e)=>{
+
+        return e.name.toLowerCase().includes(searchinp)
+    })
+
+   datashow(filterdata)     
+
+
+}
+let datashow=(data)=>{
+
 let display=document.querySelector("#display")
+display.innerHTML=""
 data.map((e)=>{
 display.innerHTML+=`<tbody>
 <td>${e.name}</td>
