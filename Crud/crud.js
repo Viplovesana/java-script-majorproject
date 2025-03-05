@@ -87,7 +87,7 @@ let userinput=()=>{
         })
     })
 
-    location.href = "crud.html" 
+    location.href = "table.html" 
     return false
      
 }

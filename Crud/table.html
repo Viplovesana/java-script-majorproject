@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="book.css">
+    <title>Hotel Bookings</title>
+    <link rel="stylesheet" href="table.css">
 </head>
-<body>
+<body onload="fetchData()">
 
     <section class="header">
 
@@ -33,55 +32,48 @@
         </header>
       </section>
 
-      <!---------------------section 1---------------------------->
+      <!-- -------------------table formate--------------------- -->
 
-      <section class="mainone">
-        <p class="title">make an appointment</p><br><br>
-       <div class="btn"><button ><a href="/index.html">Home
-          //
-          appointment</a></button></div>
-      </section>
+      <section class="table">
 
-<!-----------------------------------form validation--------------------------------->
+    search : <input type="text" id="searchinp" oninput="searchh()"><br><br>
+    <table id="display" border="1px solid black" cellspacing="30px" cellpadding="35px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Aadhar</th>
+                <th>Number</th>
+                <th>Fees</th>
+                <th>Person</th>
+                <th>Total</th>
+                <th>Cancel</th>
+                <th>update</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be dynamically added here -->
+        </tbody>
+    </table>
+    <br><br>
 
-    <section class="apoint">
-    <section class="container">
-    <div id="card1">
-    <form action="">
-        <input type="text" id="name" placeholder="enter your name"><br><br>
-        <input type="text" id="age" placeholder="enter your age"><br><br>
-        <input type="text" id="city" placeholder="enter city"><br><br>
-        <input type="text" id="aadhar" placeholder="your aadhaer"><br><br>
-        <input type="text" id="number" placeholder="your numbetr"><br><br>
-    
-      
+    <div id="pagin"></div>
 
-        <select id="Person">
-            <option value="">No of Patient</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            <option value="4">Four</option>
-        </select><br><br>
-        
-        <!-- <input type="date" id="opponitment"><br><br> -->
-        <input type="submit" value="Book your Appointment" onclick="return userinput()" id="apointbtn">
-    </form>
-    </div>
-    
 
-    <div class="card2">
-      <img src="apointimg.jpg" alt="" width="300px" height="500px">
-    
-    </div>
+    <div id="show"></div>
 
-    
+
     </section>
-    </section>
+
+
+
+
 
     <marquee behavior="" direction="right"><img src="/cart2.jpg" alt="cartoon" width="70px" height="70px"></marquee>
-  <!--------------------------------------footer------------------------------------------->
+    <!-- ------------------------------footer-------------------------->
 
+    
 
   <footer class="footer">
 
@@ -123,8 +115,10 @@
     <p>© 2025 design and developed by <span class="word">Mr Viplove.</span>Powered by <span class="word">Bornvitta.</span></p>
   </section>
 
+<!--------------------- -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.min.js" integrity="sha512-GzbaI5EsNzdEUq6/2XLYpr1y9CUZRIVsUeWTAFgULtQa5jZ3Nug8i0nZKM6jp9NffBCZhymPPQFcF0DK+JkRpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
     <script src="crud.js"></script>

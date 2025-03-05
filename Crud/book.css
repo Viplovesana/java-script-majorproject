@@ -1,0 +1,235 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+   
+}
+.header div img{
+    border-radius: 50%;
+}
+.navbar{
+    width:80%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+
+  }
+ 
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 181, 166);
+    color: white;
+    
+}
+#btn:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+
+    color: rgb(0, 181, 166); ;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    text-decoration:none;
+    font-size: 17px;
+    color: black;
+    font-weight:900;
+    font-family:monospace;
+ 
+}
+.navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navbar div h1{
+    font-family:cursive;
+    font-weight: bolder;
+}
+/* .............................section one.................................. */
+
+.mainone{
+    width:100%;
+    height: 100%;
+    padding: 50px;
+    background-color: #e4fff9;
+
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button{
+    
+    background-color: rgb(0, 181, 166);
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+} 
+
+/* .............................form section.................................. */
+
+
+.apoint{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(blocks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+.container{
+    width: 800px;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    gap: 30px;
+    background-color: #fff;
+}
+.apoint div{
+    width: 300px;
+    height: 500px;
+}
+#Person{
+    padding: 5px;
+}
+#card1{
+    width: 400px;
+    text-align: center;
+    padding: 60px;
+}
+#card1 input{
+    padding: 8px;
+    padding-right: 50px;
+    padding-left: 50px;
+ 
+}
+#apointbtn{
+    padding-bottom: 20px;
+    padding-top:20px ;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(0, 181, 166);
+    color: white;
+    
+}
+#apointbtn:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+} 
+
+
+
+/* /* .......................footer section............................ */
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:#19352c;
+    padding: 50px;
+  
+  }
+  .footer div{
+    width: 350px;
+    height: 350px; 
+    color: #fff;
+    padding: 40px;
+    
+  }
+  .white{
+    color: #8eaca5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .iconss{
+    width: 350px;
+   
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+  
+  }
+  .ending{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    background-color:#07211a;
+    color: #9fbab4;
+  
+  }
+  .word{
+    color:rgb(0, 181, 166) ;
+  }
+
+  
+@media(max-width:700px){
+
+    .navbar ul{
+        display: none;
+    }
+   
+       
+  
+}
