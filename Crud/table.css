@@ -125,7 +125,7 @@ button:hover{
         background-repeat:no-repeat;
         background-size: cover;
         padding: 80px;
-Y        
+      
     }
       #display{
        /* backdrop-filter: blur(20px); */
@@ -219,4 +219,20 @@ Y
   margin-left: 5%;
   border:none;
    
+  }
+
+
+
+  /* Updated Form  */
+
+  #updateForm{
+    width: 35%;
+    border: 2px solid rgb(163, 171, 163);
+    margin-left: 33%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: #dde9dc; */
+    box-shadow: 5px 5px 0px 0px  rgb(170, 190, 170);
+
   }

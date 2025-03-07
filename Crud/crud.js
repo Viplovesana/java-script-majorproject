@@ -131,16 +131,17 @@ let formfill =async(id)=>{
 
     
     let formdata = `
+    <form id="updateForm">
 
-    enter name : <input type="text" id="upname" value="${data.name}"><br><br>
+    Enter name : <input type="text" id="upname" value="${data.name}"><br><br>
 
-      enter name : <input type="text" id="upage" value="${data.age}"><br><br>
+      Enter name : <input type="text" id="upage" value="${data.age}"><br><br>
 
-       enter city : <input type="text" id="upcity" value="${data.city}" ><br><br>
+       Enter city : <input type="text" id="upcity" value="${data.city}" ><br><br>
 
-       enter your aadhar : <input type="text" id="upaadhar" value="${data.aadhar}" ><br><br>
+       Enter your aadhar : <input type="text" id="upaadhar" value="${data.aadhar}" ><br><br>
 
-       enter your number : <input type="text" id="upnumber" value="${data.number}"><br><br>
+       Enter your number : <input type="text" id="upnumber" value="${data.number}"><br><br>
 
        
         <select id="upPerson" value="${data.Person}">
@@ -153,6 +154,7 @@ let formfill =async(id)=>{
 
           <input type="submit" value="Book your Appointment" onclick="return finaleupdate('${data.id}')" >
 
+</form>
 
     `
     document.querySelector("#show").innerHTML=formdata
