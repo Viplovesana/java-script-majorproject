@@ -31,44 +31,14 @@
       "fees": 2000
     },
     {
-      "id": "0934",
       "name": "faraz ahmed",
       "age": "27",
       "city": "bhopal",
       "aadhar": "9874943209i0",
       "number": "86727348786",
-      "person": "2",
-      "fees": 2000
-    },
-    {
-      "id": "d275",
-      "name": "zainab",
-      "age": "26",
-      "city": "bhopal",
-      "aadhar": "9874943209i0783437",
-      "number": "86727348786",
-      "person": "2",
-      "fees": 2000
-    },
-    {
-      "id": "9fa0",
-      "name": "siddhart sir",
-      "age": "26",
-      "city": "bhopal",
-      "aadhar": "9874943209i0783437",
-      "number": "86727348786",
-      "person": "2",
-      "fees": 2000
-    },
-    {
-      "id": "0f22",
-      "name": "",
-      "age": "",
-      "city": "",
-      "aadhar": "",
-      "number": "",
-      "person": "",
-      "fees": 2000
+      "person": "1",
+      "fees": 2000,
+      "id": "0934"
     },
     {
       "id": "59be",
@@ -118,6 +88,36 @@
       "aadhar": "9874943209i0",
       "number": "8085212206",
       "person": "2",
+      "fees": 2000
+    },
+    {
+      "id": "ec2a",
+      "name": "viplove sana",
+      "age": "23",
+      "city": "bhopal",
+      "aadhar": "9874943209i0",
+      "number": "8085212206",
+      "person": "2",
+      "fees": 2000
+    },
+    {
+      "id": "4c1d",
+      "name": "viplove sana",
+      "age": "23",
+      "city": "bhopal",
+      "aadhar": "9874943209i0",
+      "number": "8085212206",
+      "person": "1",
+      "fees": 2000
+    },
+    {
+      "id": "c837",
+      "name": "",
+      "age": "",
+      "city": "",
+      "aadhar": "",
+      "number": "",
+      "person": "",
       "fees": 2000
     }
   ]

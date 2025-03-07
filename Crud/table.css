@@ -79,6 +79,42 @@
     font-weight: bolder;
 }
 
+/* .............................section one.................................. */
+
+.mainone{
+  width:100%;
+  height: 100%;
+  padding: 50px;
+  background-color: #e4fff9;
+
+}
+.title{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button{
+  
+  background-color: rgb(0, 181, 166);
+  padding: 10px;
+  color: #fff;
+  border: none;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover{
+  background-color:rgb(0, 33, 31); 
+  transition: 1s;
+} 
+
 /* .......................table section.......................... */
 
     .table{
@@ -86,9 +122,17 @@
         height: 100%;
         background-image: url();
         padding: 80px;
-        background-color: #9fbab4;
+        /* background-color: #9fbab4; */
         
         
+      }
+      #display{
+       background-color: #d5ddda;
+      }
+      #pagin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
 
@@ -144,4 +188,34 @@
 
   .Vip{
     padding: 10px;
+    border: none;
+    }
+  #searchinp{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
   }
+  #btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 181, 166);
+    
+    
+}
+#btn a{
+  text-decoration: none;
+  color: white;
+  
+
+}
+#btn:hover{
+    background-color:rgb(0, 33, 31); 
+    transition: 1s;
+}

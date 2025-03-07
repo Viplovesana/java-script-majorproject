@@ -129,7 +129,7 @@ let formfill =async(id)=>{
 
     console.log(data);
 
-
+    
     let formdata = `
 
     enter name : <input type="text" id="upname" value="${data.name}"><br><br>
@@ -156,6 +156,7 @@ let formfill =async(id)=>{
 
     `
     document.querySelector("#show").innerHTML=formdata
+
 
 }
 
@@ -204,4 +205,12 @@ let paginationdata=(data)=>{
         }
     })
 
+}
+
+
+
+let logout=()=>{
+
+    location.href = "/index.html"
+    localStorage.clear()
 }
