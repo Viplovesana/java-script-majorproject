@@ -44,8 +44,8 @@ display.innerHTML+=`<tbody  >
 <td class="Vip">${e.fees}</td>
 <td class="Vip">${e.person}</td>
 <td class="Vip">${e.fees*e.person}</td>
-<td onclick="confirmdeletee('${e.id}')" class="Vip">cancel</td>
-<td onclick="formfill('${e.id}')" class="Vip">update</td>
+<td onclick="confirmdeletee('${e.id}')" id="Vip2">cancel</td>
+<td onclick="formfill('${e.id}')" id="Vip2">update</td>
 </tbody>`
 })
 }

@@ -89,7 +89,7 @@
 
 }
 .title{
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -120,14 +120,18 @@ button:hover{
     .table{
         width: 100%;
         height: 100%;
-        background-image: url();
+        background-image: url(/bkground6.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: cover;
         padding: 80px;
-        /* background-color: #9fbab4; */
-        
-        
-      }
+Y        
+    }
       #display{
-       background-color: #d5ddda;
+       /* backdrop-filter: blur(20px); */
+       margin-left: 30px;
+       border:2px solid gray;
+
       }
       #pagin{
         display: flex;
@@ -189,33 +193,30 @@ button:hover{
   .Vip{
     padding: 10px;
     border: none;
+    
+  
+  
+    }
+    #Vip2{
+      padding: 10px;
+      color: rgb(254, 80, 80);
+      font-weight: bold;
+      ;
+    
     }
   #searchinp{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-radius: 5px;
-    border: none;
-  }
-  #btn{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(0, 181, 166);
-    
-    
-}
-#btn a{
-  text-decoration: none;
-  color: white;
+    border:none;
   
-
-}
-#btn:hover{
-    background-color:rgb(0, 33, 31); 
-    transition: 1s;
-}
+    
+  }
+  #searchh{
+  width: 350px;
+  margin-left: 5%;
+  border:none;
+   
+  }
