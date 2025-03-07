@@ -21,9 +21,5 @@ let login = ()=>{
 
 }
 
-let logout = ()=>{
 
-  localStorage.clear()
-  location.href="login.html"
-}
 

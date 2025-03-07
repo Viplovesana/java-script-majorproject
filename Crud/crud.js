@@ -8,7 +8,7 @@ let url="http://localhost:3000/hotel"
 let res=await fetch(url)
 let data=await res.json()
 console.log(data)
-datashow(data)
+paginationdata(data)
 
 }
 
@@ -35,26 +35,53 @@ let datashow=(data)=>{
 let display=document.querySelector("#display")
 display.innerHTML=""
 data.map((e)=>{
-display.innerHTML+=`<tbody>
-<td>${e.name}</td>
-<td>${e.age}</td>
-<td>${e.city}</td>
-<td>${e.aadhar}</td>
-<td>${e.number}</td>
-<td>${e.fees}</td>
-<td>${e.person}</td>
-<td>${e.fees*e.person}</td>
-<td onclick="deletee('${e.id}')">cancel</td>
-<td onclick="formfill('${e.id}')">update</td>
+display.innerHTML+=`<tbody  >
+<td class="Vip">${e.name}</td>
+<td class="Vip">${e.age}</td>
+<td class="Vip">${e.city}</td>
+<td class="Vip">${e.aadhar}</td>
+<td class="Vip">${e.number}</td>
+<td class="Vip">${e.fees}</td>
+<td class="Vip">${e.person}</td>
+<td class="Vip">${e.fees*e.person}</td>
+<td onclick="confirmdeletee('${e.id}')" class="Vip">cancel</td>
+<td onclick="formfill('${e.id}')" class="Vip">update</td>
 </tbody>`
 })
+}
+
+
+
+
+let confirmdeletee=(id)=>{
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          }).then(()=>{
+            deletee(id)
+          })
+        }
+      });
 }
 // fetchData()
 
 let deletee = (id)=>{
 
-    let url = `http://localhost:3000/hotel/${id}`
+    
 
+    let url = `http://localhost:3000/hotel/${id}`
+ 
     fetch(url,{method:"DELETE"})
 }
 
@@ -165,23 +192,16 @@ let finaleupdate=(id)=>{
     return false
      
 }
-
-
-
-
-
-
 // .....................pagination data.....................
-// let pagination = ()=>{
-// $('#pagin').pagination({
-//     dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 195],
-//     callback: function(data, pagination) {
-//         // template method of yourself
-//         var html = template(data);
-//         dataContainer.html(html);
-//     }
-// })
+let paginationdata=(data)=>{
+    $('#pagin').pagination({
+        dataSource: data,
+        pageSize: 5,
+        showPrevious: false,
+        showNext: false,
+        callback: function(data, pagination) {
+         datashow(data)
+        }
+    })
 
-
-
-// }
+}
