@@ -98,6 +98,9 @@
 #check{
   display: none;
 }
+#check:checked ~ ul{
+  left: 0;
+}
 
 /* ...............................section 2..................................... */
 
@@ -762,32 +765,35 @@ background-size: cover;
 .navbar{
   position: relative;
   top: 0;
+  
 }
 .navbar ul {
   width: 100%;
   height: 100vh;
   background-color: #8eaca5;
+  background-image: url(vecteezy_texture-abstract-green-wall-background_38999962.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 999;
   display: block;
   padding-top: 50px;
+  text-align: center; 
+  position: fixed; 
+  top: 80px;
+  left: -100%;
+ 
 
   
-  
-  
-}
+} 
 .navbar ul li{
-  margin-left: 47%;
-  margin-bottom:60px;
-
-
-
   
+  margin-bottom:60px;
 }
-#btn{
-  display: flex;
-  flex-direction: column;
-  g
+.navbar ul li a{
+  font-size: 25px;
 }
+
 
 
 }
