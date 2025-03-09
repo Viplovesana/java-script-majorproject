@@ -6,6 +6,8 @@
   <title>Document</title>
   <!-- font awesom cdn link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  
+
 
 
   <!-- HOME.CSS -->
@@ -23,9 +25,16 @@
 </head>
 <body>
 
-  <section class="header">
+  <!-- <section class="header">
+
+    <input type="checkbox" id="check"  name="" value="">
+    <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label> -->
 
   <header class="navbar">
+    <input type="checkbox" id="check"  name="" value="">
+    <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+
+  
     
     <div data-aos="fade-right" data-aos-duration="2000">
 
@@ -38,11 +47,12 @@
       <li><a href="">Home</a></li>
       <li><a href="">About</a></li>
       <li><a href="">Doctors>></a></li>
-    </ul>
-
+    <div id="btn">  
     <button id="btn" onclick="booknow()" data-aos="fade-left" data-aos-duration="2000">Make An Appointment</button>
 
-    <button id="btn" onclick="logout()"  data-aos="fade-left" data-aos-duration="2000">Log-Out</button>
+    <button id="btn" onclick="logout()"  data-aos="fade-left" data-aos-duration="2000">Log-Out</button></div>
+    </ul>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
