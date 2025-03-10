@@ -389,21 +389,25 @@ background-size: cover;
 
 
 .mainseven div{
-  width: 418.6px;
-  height: 465px;
+  width: 518.7px;
+  height: 565px;
   text-align: center;
   border-radius: 10%; 
-  margin-top: -13%;
+  margin-top: -18%;
+  
    
 }
 .filter{
   backdrop-filter: blur(100px);
 }
 .pen{
-  font-size: 25px;
+  font-size: 30px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 20px;
  
+}
+.paraa{
+  font-size: 22px;
 }
 .look{
   color: rgb(0, 181, 166);
@@ -413,8 +417,8 @@ background-size: cover;
 }
 
 #pic7{
-  width:500px;
-  height:400px ;
+  width:580px;
+  height:500px ; 
   padding:20px;
 }
 
@@ -432,8 +436,8 @@ background-size: cover;
   padding: 40px;
 }
 .maineight div{
-  width: 500px;
-  height: 250px;
+  width: 600px;
+  height: 350px;
   padding: 20px;
 }
 .color{
