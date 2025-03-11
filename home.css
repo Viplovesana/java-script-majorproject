@@ -389,11 +389,11 @@ background-size: cover;
 
 
 .mainseven div{
-  width: 518.7px;
-  height: 565px;
+  width: 418.7px;
+  height: 465px;
   text-align: center;
   border-radius: 10%; 
-  margin-top: -18%;
+  margin-top: -10%;
   
    
 }
@@ -401,13 +401,13 @@ background-size: cover;
   backdrop-filter: blur(100px);
 }
 .pen{
-  font-size: 30px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 20px;
  
 }
 .paraa{
-  font-size: 22px;
+  /* font-size: 22px; */
 }
 .look{
   color: rgb(0, 181, 166);
@@ -417,8 +417,8 @@ background-size: cover;
 }
 
 #pic7{
-  width:580px;
-  height:500px ; 
+  width:480px;
+  height:400px ; 
   padding:20px;
 }
 
@@ -436,8 +436,8 @@ background-size: cover;
   padding: 40px;
 }
 .maineight div{
-  width: 600px;
-  height: 350px;
+  width: 500px;
+  height: 250px;
   padding: 20px;
 }
 .color{
